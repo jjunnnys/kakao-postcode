@@ -1,12 +1,12 @@
 {
   "name": "kakao-postcode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript type definitions for kakao postcode",
   "main": "index.d.js",
   "types": "index.d.ts",
   "license": "MIT",
   "scripts": {
-    "bulid": "tsc",
+    "build": "tsc",
     "publish": "npm run build && npm publish"
   },
   "devDependencies": {

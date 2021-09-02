@@ -1,9 +1,11 @@
-import { Embed, IDaumParams, Open } from "./kakaoPostcode";
+import { Embed, IParamsConstructor, Open } from "./kakaoPostcode";
+type KakaoInstance = daum.Postcode;
+export { Embed, IParamsConstructor, Open, KakaoInstance };
 
 declare global {
   namespace daum {
     class Postcode {
-      constructor(params: IDaumParams);
+      constructor(params: IParamsConstructor);
 
       open(open?: Open): void;
 

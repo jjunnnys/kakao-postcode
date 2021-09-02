@@ -184,7 +184,7 @@ type Embed = {
   autoClose?: boolean;
 };
 
-export type IDaumParams = {
+export type IParamsConstructor = {
   /**
    * @description
    * 우편번호 검색 결과 목록에서 특정 항목을 클릭한 경우,
