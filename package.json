@@ -1,0 +1,34 @@
+{
+  "name": "kakao-postcode",
+  "version": "0.0.1",
+  "description": "TypeScript type definitions for kakao postcode",
+  "main": "index.d.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "bulid": "tsc",
+    "publish": "npm run build && npm publish"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "keywords": [
+    "kakao",
+    "postcode",
+    "type"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjunnnys/kakao-postcode.git"
+  },
+  "author": {
+    "name": "jjunnnys",
+    "email": "salswnss@gmail.com",
+    "url": "https://github.com/jjunnnys"
+  },
+  "homepage": "https://github.com/jjunnnys/kakao-postcode",
+  "bugs": {
+    "url": "https://github.com/jjunnnys/kakao-postcode/issues",
+    "email": "salswnss@gmail.com"
+  }
+}
