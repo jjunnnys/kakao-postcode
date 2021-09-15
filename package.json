@@ -1,6 +1,6 @@
 {
   "name": "kakao-postcode",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "TypeScript type definitions for kakao postcode",
   "main": "index.d.js",
   "types": "index.d.ts",
