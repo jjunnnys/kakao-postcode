@@ -28,9 +28,10 @@ const { daum } = window; // kako라고는 하지만 아직은 daum으로...
 
 ```tsx
 import { Embed, IParamsConstructor, Open, KakaoInstance } from 'kakao-postcode';
+import { InitPostCode } from 'kakao-postcode/kakaoPostcode'; 
 
 const kakaoPostcode: KakaoInstance = new window.daum.Postcode({
-    oncomplete(data: IParamsConstructor) { ... }
+    oncomplete(data: InitPostCode) { ... }
     ...
  });
 
